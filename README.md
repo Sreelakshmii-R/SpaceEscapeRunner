@@ -26,6 +26,14 @@ A simple 2D arcade game built using **React Native** and **Expo**, where players
 
 ---
 
+## 🎥 Demo Video
+
+Watch Space Escape Runner in action!
+
+https://github.com/user-attachments/assets/e7168b11-daf6-4c94-81ab-fbaf71f3a202
+
+---
+
 ## 📱 Screenshots
 
 > Add your screenshots inside a `screenshots` folder and update the file names below.

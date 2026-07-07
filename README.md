@@ -32,15 +32,15 @@ A simple 2D arcade game built using **React Native** and **Expo**, where players
 
 ### Start Screen
 
-<img width="720" height="1600" alt="WhatsApp Image 2026-07-07 at 1 42 53 PM" src="https://github.com/user-attachments/assets/24574394-88dc-41e3-b842-31e09441417d" />
+<img width="200" height="500" alt="WhatsApp Image 2026-07-07 at 1 42 53 PM" src="https://github.com/user-attachments/assets/24574394-88dc-41e3-b842-31e09441417d" />
 
 ### Gameplay
 
-<img width="720" height="1600" alt="WhatsApp Image 2026-07-07 at 1 42 53 PM (1)" src="https://github.com/user-attachments/assets/2cde96a2-3caf-4ff8-9de3-870e6d0eb4b4" />
+<img width="200" height="500" alt="WhatsApp Image 2026-07-07 at 1 42 53 PM (1)" src="https://github.com/user-attachments/assets/2cde96a2-3caf-4ff8-9de3-870e6d0eb4b4" />
 
 ### Game Over
 
-<img width="720" height="1600" alt="WhatsApp Image 2026-07-07 at 1 42 54 PM" src="https://github.com/user-attachments/assets/e11ccc5b-e465-48ea-b2fe-cca706aec092" />
+<img width="200" height="500" alt="WhatsApp Image 2026-07-07 at 1 42 54 PM" src="https://github.com/user-attachments/assets/e11ccc5b-e465-48ea-b2fe-cca706aec092" />
 
 ---
 

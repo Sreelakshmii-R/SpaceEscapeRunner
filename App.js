@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import {
   SafeAreaView,
+  StatusBar,
   View,
   Text,
   TouchableOpacity,
@@ -127,6 +128,11 @@ useEffect(() => {
 
   return (
   <SafeAreaView style={styles.safeArea}>
+    <StatusBar
+      translucent
+      backgroundColor="transparent"
+      barStyle="light-content"
+    />
     <LinearGradient
       colors={["#020617", "#0F172A", "#1E3A8A"]}
       style={styles.gradient}
@@ -228,20 +234,44 @@ const styles = StyleSheet.create({
 
   safeArea: {
   flex: 1,
+  backgroundColor: "#020617",
 },
 
 gradient: {
   flex: 1,
+},
+
+centerScreen: {
+  flex: 1,
+  justifyContent: "center",
+  alignItems: "center",
   width: "100%",
+  paddingHorizontal: 20,
+},
+
+topUI: {
+  position: "absolute",
+  top: 60,
+  width: "100%",
+  flexDirection: "row",
+  justifyContent: "space-between",
+  paddingHorizontal: 25,
+},
+
+scoreText: {
+  color: "#FFFFFF",
+  fontSize: 20,
+  fontWeight: "bold",
 },
 
   /* ================= TITLE ================= */
   title: {
-    fontSize: 32,
-    fontWeight: "bold",
-    color: "#FFFFFF",
-    marginBottom: 30,
-  },
+  fontSize: 32,
+  fontWeight: "bold",
+  color: "#FFFFFF",
+  marginBottom: 30,
+  textAlign: "center",
+},
 
   /* ================= SCORE UI ================= */
   scoreContainer: {
@@ -270,13 +300,15 @@ gradient: {
 
   /* ================= BUTTON ================= */
   button: {
-    backgroundColor: "#3B82F6",
-    paddingHorizontal: 45,
-    paddingVertical: 16,
-    borderRadius: 30,
-    elevation: 8,
-    marginVertical: 10,
-  },
+  backgroundColor: "#3B82F6",
+  width: 230,
+  height: 55,
+  borderRadius: 28,
+  justifyContent: "center",
+  alignItems: "center",
+  elevation: 8,
+  marginTop: 20,
+},
 
   buttonText: {
     color: "#FFFFFF",
@@ -303,12 +335,14 @@ gradient: {
   },
 
   restartButton: {
-    backgroundColor: "#16A34A",
-    paddingVertical: 14,
-    paddingHorizontal: 35,
-    borderRadius: 12,
-    marginTop: 20,
-  },
+  backgroundColor: "#16A34A",
+  width: 230,
+  height: 55,
+  borderRadius: 28,
+  justifyContent: "center",
+  alignItems: "center",
+  marginTop: 25,
+},
 
   /* ================= CONTROLS ================= */
   controls: {
